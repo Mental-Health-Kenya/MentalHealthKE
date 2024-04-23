@@ -1,0 +1,67 @@
+.CrisisPreviewImage {
+    width: 65px;
+    height: 65px;
+    border-radius: 50%;
+    margin: 5px;
+    border: 3px solid white;
+}
+
+.CrisisPreviewSupportContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.CrisisPreviews {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+}
+
+.CrisisPreviewsButton {
+    height: 42px;
+    width: 200px;
+    background-color: white;
+    border: none;
+    color: rgb(13, 103, 151);
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.CrisisPreviewsButton:hover {
+    background-color: gray;
+}
+
+.CrisisPreviewsButtonContainer {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.CrisisPreviewsSupportContainer {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.CrisisPreviewsText {
+    font-size: 30px;
+    color: white;
+    padding-left: 10px;
+    display: flex;
+}
+.CrisisPreviewSupportText {
+    color: white;
+}
+
+.CrisisPreviewsOverallContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 100%;
+}

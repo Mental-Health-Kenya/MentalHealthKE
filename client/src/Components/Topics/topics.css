@@ -1,0 +1,46 @@
+.Container {
+    padding: 25px;
+    height: 100%;
+}
+
+.SearchBarContainer {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 25px 0;
+}
+
+.ForumTable {
+    margin: 0 auto;
+    font-family: Calibri;
+    border-spacing: 20px
+}
+
+.ForumTableCell {
+    width: 220px;
+    height: 150px;
+    font-size: xx-large;
+    text-align: center;
+    color: #FFFFFF;
+    cursor: pointer;
+    vertical-align: middle;
+    border-radius: 10;
+    box-shadow: 1px 1px 3px #333333;
+    background-size: cover
+}
+
+.TopicLink {
+    text-decoration: none
+}
+
+.TileContainer {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.Loading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

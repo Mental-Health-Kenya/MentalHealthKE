@@ -1,0 +1,22 @@
+{
+	"NAVIGATION_BAR_DASHBOARD": {
+		"description": "Dashboard label",
+		"value": "Tableau de bord"
+	},
+	"NAVIGATION_BAR_FORUMS": {
+		"description": "Forums label",
+		"value": "Forums"
+	},
+	"NAVIGATION_BAR_CONTACTS": {
+		"description": "Contacts menu item",
+		"value": "Contacts"
+	},
+	"NAVIGATION_BAR_LOGIN": {
+		"description": "Login button",
+		"value": "Connectez"
+	},
+	"NAVIGATION_BAR_LOGOUT": {
+		"description": "Logout button",
+		"value": "Déconnectez"
+	}
+}

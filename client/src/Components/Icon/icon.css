@@ -1,0 +1,22 @@
+.Icon {
+    width: 25px;
+    height: 25px;
+}
+
+.Text {
+    font-weight: "bold";
+    margin-left: 8px;
+}
+
+.IconInfo {
+    width: 65px;
+    min-width: 65px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.TableCell {
+    vertical-align: middle;
+    padding: 1px 5px;
+}

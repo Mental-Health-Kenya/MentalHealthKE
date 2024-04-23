@@ -1,0 +1,122 @@
+{
+	"NAVIGATION_BAR_DASHBOARD": {
+		"description": "Dashboard menu item",
+		"value": "Dashboard"
+	},
+	"NAVIGATION_BAR_FORUMS": {
+		"description": "Forums menu item",
+		"value": "Forums"
+	},
+	"NAVIGATION_BAR_CONTACTS": {
+		"description": "Contacts menu item",
+		"value": "Contacts"
+	},
+	"NAVIGATION_BAR_LOGIN": {
+		"description": "Login button",
+		"value": "Login"
+	},
+	"NAVIGATION_BAR_LOGOUT": {
+		"description": "Logout button",
+		"value": "Logout"
+	},
+	"FOOTER_COPYRIGHT": {
+		"description": "Copyright label for footer; {0} date, {1} Organization name",
+		"value": "Copyright \u00A9 {0} {1} All rights reserved"
+	},
+	"DASHBOARD_PREVIEW_THRENDING_POSTS_HEADER": {
+		"description": "Header for Trending Posts dashboard preview",
+		"value": "Trending posts in your network"
+	},
+	"DASHBOARD_PREVIEW_TRENDING_POSTS_BUTTON": {
+		"description": "Button label for Trending Posts dashboard preview",
+		"value": "View all posts \u2192"
+	},
+	"DASHBOARD_PREVIEW_TRENDING_KEYWORDS_HEADER": {
+		"description": "Header for Trending Keywords dashboard preview",
+		"value": "Trending Keywords"
+	},
+	"DASHBOARD_PREVIEW_CRISIS_BUTTON": {
+		"description": "Button label for Crisis dashboard preview",
+		"value": "Get help now \u2192"
+	},
+	"DASHBOARD_PREVIEW_CRISIS_PHONE_LABEL": {
+		"description": "Phone label for Crisis dashboard preview",
+		"value": "Phone"
+	},
+	"DASHBOARD_PREVIEW_CRISIS_ONLINE_LABEL": {
+		"description": "Online label for Crisis dashboard preview",
+		"value": "Online"
+	},
+	"TOPICS_INPUT_PLACEHOLDER": {
+		"description": "Input placeholder for Topics page",
+		"value": "Search for topics"
+	},
+	"FORUM_CREATE_BUTTON_LABEL": {
+		"description": "Create button label forForum page",
+		"value": "Create new discussion"
+	},
+	"CREATE_CHAT_HEADER": {
+		"description": "Header for Create Chat page",
+		"value": "Create New Chat"
+	},
+	"CREATE_CHAT_SUBMIT_BUTTON_LABEL": {
+		"description": "Submit button label for Create Chat page",
+		"value": "Submit"
+	},
+	"CREATE_CHAT_INPUT_TITLE_PLACEHOLDER": {
+		"description": "Title input placeholder for Create Chat page",
+		"value": "Enter chat title"
+	},
+	"CREATE_CHAT_INPUT_DESCRIPTION_PLACEHOLDER": {
+		"description": "Description input placeholder for Create Chat page",
+		"value": "Enter chat description"
+	},
+	"CHAT_INPUT_PLACEHOLDER": {
+		"description": "Input placeholder for Chat page",
+		"value": "Enter your message here"
+	},
+	"CHAT_LOGIN_MESSAGE": {
+		"description": "Login message for Chat page",
+		"value": "Please log in to send messages in this chat"
+	},
+	"CHAT_INFO_REPLIES": {
+		"description": "Replies info label for chat",
+		"value": "replies"
+	},
+	"CHAT_INFO_VIEWS": {
+		"description": "Views info label for chat",
+		"value": "views"
+	},
+	"EVENTS_HEADER": {
+		"description": "Header for Events page",
+		"value": "Upcoming Events"
+	},
+	"EVENTS_INPUT_PLACEHOLDER": {
+		"description": "Input placeholder for Events page",
+		"value": "Search for events by title, description, or location..."
+	},
+	"CONTACTS_HEADER": {
+		"description": "Header for Contacts page",
+		"value": "Contacts"
+	},
+	"CONTACTS_CREATE_FORM_HEADER": {
+		"description": "Create form header for Contacts page",
+		"value": "Add Contact"
+	},
+	"CONTACTS_CREATE_FORM_INPUT_TITLE": {
+		"description": "Create form input placeholder for Contacts page",
+		"value": "Contact title"
+	},
+	"CONTACTS_CREATE_FORM_INPUT_DESCRIPTION": {
+		"description": "Create form input placeholder for Contacts page",
+		"value": "Contact description"
+	},
+	"CONTACTS_CREATE_FORM_INPUT_LINK": {
+		"description": "Create form input placeholder for Contacts page",
+		"value": "Link (ex. https://suicidepreventionlifeline.org)"
+	},
+	"CREATE_FORM_SUBMIT": {
+		"description": "Submit button label for create form",
+		"value": "Submit"
+	}
+}

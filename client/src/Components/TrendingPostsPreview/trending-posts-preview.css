@@ -1,0 +1,31 @@
+.TrendingPostsPreviewLabel {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+}
+
+.TrendingPostsPreviewMessageLink {
+    text-decoration: none;
+    color: #000000;
+    display: flex;
+}
+
+.TrendingPostsPreviewMessageLink :hover {
+    background-color: #E8E8E8;
+}
+
+.TrendingPostsPreviewMessage {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-bottom: 1px solid #CCCCCC;
+    padding: 10px;
+    flex-grow: 1;
+    cursor: pointer;
+}
+
+.TrendingPostsPreviewImage {
+    max-width: 42px;
+    width: 42px;
+    height: 42px;
+}

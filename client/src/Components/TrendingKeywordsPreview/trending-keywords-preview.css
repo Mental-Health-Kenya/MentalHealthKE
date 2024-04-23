@@ -1,0 +1,17 @@
+.TrendingKeywordsPreviewWords {
+    margin-right: 5px;
+    display: inline-block;
+    color: rgb(13, 103, 151);
+    font-weight: bold;
+}
+
+.TrendingKeywordsWordsContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-grow: 1;
+}
+
+.TrendingKeywordsWords {
+    text-align: center;
+}
