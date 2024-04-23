@@ -6,10 +6,31 @@ To set up and run the application, please follow the procedures outlined in the 
 
 ## Setting up the local project
 
-Ensure you have Node <= V16, npm <=V8 (Install yarn using:)
+1. Ensure you have NVM, Node <= V16, npm <=V8 (Install yarn using:)
+
+```
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.7/install.sh | bash
+```
+
+```
+nvm install 16
+nvm use 16
+```
+
+2. Confirm you are using node V16:
+
+```
+node -v
+```
 
 ```
 npm i -g yarn
+```
+
+3. Check if yarn was successfully installed:
+
+```
+yarn -v
 ```
 
 Manage Node versions using NVM:
@@ -18,30 +39,13 @@ Manage Node versions using NVM:
 1. Clone the repository to your local machine:
 
    ```
-   git clone https://github.com/Mental-Health-Kenya/MentalHealthKE.git
+   git clone https://github.com/Mental-Health-Kenya/MentalHealthKE.git && cd MentalHealthKE
    ```
 
    Incase you exprience errors cloning the repo:
 
    ```
    git clone https://github.com/Mental-Health-Kenya/MentalHealthKE.git --depth 1
-   ```
-
-2. Download and install Node.js onto your development machine from
-   https://nodejs.org/.
-
-3. Check whether the installation of Node was successful by running the following command; a version number should be printed:
-
-   ```
-   node -v
-   ```
-
-4. Download and install Yarn on your development machine from https://yarnpkg.com/lang/en/docs/install/.
-
-5. Similar to that of the installation of Node.js, check whether the installation of Yarn was successful by running the following command; a version number should be printed:
-
-   ```
-   yarn -v
    ```
 
 ## Setting up the database
