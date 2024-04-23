@@ -18,7 +18,13 @@ Manage Node versions using NVM:
 1. Clone the repository to your local machine:
 
    ```
-   git clone https://github.com/Microsoft/MentalHealthPlatform.git
+   git clone https://github.com/Mental-Health-Kenya/MentalHealthKE.git
+   ```
+
+   Incase you exprience errors cloning the repo:
+
+   ```
+   git clone https://github.com/Mental-Health-Kenya/MentalHealthKE.git --depth 1
    ```
 
 2. Download and install Node.js onto your development machine from
@@ -63,13 +69,13 @@ Manage Node versions using NVM:
 5.  Run the service using the following command:
 
     ```
-    brew services start mongodb-community@4.2
+    sudo systemctl start mongod
     ```
 
 6.  After installing MongoDB, launch the MongoDB terminal by using the following command:
 
     ```
-    mongo
+    mongosh
     ```
 
 7.  To add sample data, enter the commands listed in the **"docs/database\_ commands.txt"** file of this repository
