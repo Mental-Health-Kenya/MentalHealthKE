@@ -6,6 +6,15 @@ To set up and run the application, please follow the procedures outlined in the 
 
 ## Setting up the local project
 
+Ensure you have Node <= V16, npm <=V8 (Install yarn using:)
+
+```
+npm i -g yarn
+```
+
+Manage Node versions using NVM:
+[Node Version Manager](https://github.com/nvm-sh/nvm)
+
 1. Clone the repository to your local machine:
 
    ```
@@ -13,10 +22,10 @@ To set up and run the application, please follow the procedures outlined in the 
    ```
 
 2. Download and install Node.js onto your development machine from
-https://nodejs.org/.
+   https://nodejs.org/.
 
 3. Check whether the installation of Node was successful by running the following command; a version number should be printed:
-   
+
    ```
    node -v
    ```
@@ -24,7 +33,7 @@ https://nodejs.org/.
 4. Download and install Yarn on your development machine from https://yarnpkg.com/lang/en/docs/install/.
 
 5. Similar to that of the installation of Node.js, check whether the installation of Yarn was successful by running the following command; a version number should be printed:
-   
+
    ```
    yarn -v
    ```
@@ -32,37 +41,38 @@ https://nodejs.org/.
 ## Setting up the database
 
 1.  Download and install MongoDB from the MongoDB website:
-  
+
     https://docs.mongodb.com/manual/installation/
 
-2. If using a Windows machine, one may need to add mongo to the environment variables. The instructions regarding the addition of environment variables can be found in the Microsoft Docs article for installing and configuring MongoDB:
+2.  If using a Windows machine, one may need to add mongo to the environment variables. The instructions regarding the addition of environment variables can be found in the Microsoft Docs article for installing and configuring MongoDB:
 
     https://docs.microsoft.com/en-us/azure/virtual-machines/windows/install-mongodb
 
-3. Create a directory to store the data.
+3.  Create a directory to store the data.
 
     ```
     mkdir <path>
     ```
 
-4. Set the path for storing the data: 
+4.  Set the path for storing the data:
 
     ```
     mongod --dbpath /data/<path>
     ```
-5. Run the service using the following command:
+
+5.  Run the service using the following command:
 
     ```
     brew services start mongodb-community@4.2
     ```
 
 6.  After installing MongoDB, launch the MongoDB terminal by using the following command:
-  
+
     ```
     mongo
     ```
 
-7.  To add sample data, enter the commands listed in the **"docs/database_ commands.txt"** file of this repository
+7.  To add sample data, enter the commands listed in the **"docs/database\_ commands.txt"** file of this repository
 
 ## Setting up the server
 
@@ -83,7 +93,7 @@ https://nodejs.org/.
     ```
     yarn start
     ```
-    
+
     The console should then print a statement about the server running on a certain port:
 
     > Server is running on Port 3000...
